@@ -7,7 +7,7 @@ function Links(){
     return (
         <div className="links">
             <div className="link">
-                <a href="#">Twitter Link</a>
+                <a href="https://twitter.com/Enda_rae">Twitter Link</a>
             </div>
             <div className="link">
                 <a href="https://book.zuri.team" id="books">Zuri Books</a>

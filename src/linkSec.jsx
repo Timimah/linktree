@@ -21,7 +21,9 @@ function Links(){
             <div className="link" id="pitch">
                 <a href="https://background.zuri.team">Background Check for Coders</a>
             </div>
-            <div className="link" id="book_design">Design Books</div>
+            <div className="link">
+                <a href="https://books.zuri.team/design-rules" id="book_design">Design Books</a>
+            </div>
             <div style={{padding: '1em'}}>
                 <img src={Slack} alt="Slack"  style={{padding: '0.2em'}} />
                 <img src={GitHib} alt="GitHub"  style={{padding: '0.2em'}} />

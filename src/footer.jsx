@@ -6,7 +6,7 @@ function Footer() {
     return(
         <div>
             <hr />
-            <div>
+            <div className="footer">
                 <img src={zuri} alt="Zuri Internship" />
             </div>
             <div style={{fontWeight: 100}}>Hngi9 Frontend Task</div>

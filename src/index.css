@@ -85,7 +85,7 @@ a{
 
 .links{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 24px 32px;
@@ -104,11 +104,18 @@ a{
   gap: 8px;
 }
 
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 600px){
   body{
     padding: 0.2em
   }
-  .links{
+  .footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +127,7 @@ a{
   body{
     padding: 0.2em
   }
-  .links{
+  .footer{
     display: flex;
     flex-direction: column;
     justify-content: center;

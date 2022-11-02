@@ -15,6 +15,11 @@ code {
     monospace;
 }
 
+a{
+  text-decoration: none;
+  color: #101828;
+}
+
 .profile_img{
   display: flex;
   flex-direction: column;

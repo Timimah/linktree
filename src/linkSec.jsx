@@ -7,22 +7,22 @@ function Links(){
     return (
         <div className="links">
             <div className="link">
-                <a href="https://twitter.com/Enda_rae">Twitter Link</a>
-            </div>
-            <div className="link">
-                <a href="https://book.zuri.team" id="books">Zuri Books</a>
+                <a type="button" href="https://twitter.com/Enda_rae">Twitter Link</a>
             </div>
             <div className="link" id="btn_zuri">
-                <a href="https://training.zuri.team">Zuri Team</a>
-            </div>
-            <div className="link" id="book_python">
-                <a href={PythonLink()}>Python Books</a>
-            </div>
-            <div className="link" id="pitch">
-                <a href="https://background.zuri.team">Background Check for Coders</a>
+                <a type="button" href="https://training.zuri.team">Zuri Team</a>
             </div>
             <div className="link">
-                <a href="https://books.zuri.team/design-rules" id="book_design">Design Books</a>
+                <a type="button" href="https://books.zuri.team" id="books">Zuri Books</a>
+            </div>
+            <div className="link" id="book_python">
+                <a type="button" href={PythonLink()}>Python Books</a>
+            </div>
+            <div className="link" id="pitch">
+                <a type="button" href="https://background.zuri.team">Background Check for Coders</a>
+            </div>
+            <div className="link">
+                <a type="button" href="https://books.zuri.team/design-rules" id="book_design">Design Books</a>
             </div>
             <div style={{padding: '1em'}}>
                 <img src={Slack} alt="Slack"  style={{padding: '0.2em'}} />
